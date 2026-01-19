@@ -256,7 +256,6 @@ nav h1 {
     font-size: 20px;
     text-align: center;
     background-color: #0c072d;
-    border: 2px solid white;
 }
 
 .hidden {
@@ -385,3 +384,4 @@ footer {
         font-size: 16px;
     }
 }
+
