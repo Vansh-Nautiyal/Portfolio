@@ -116,6 +116,7 @@ nav h1 {
 
 #logo img {
     height: 300px;
+    max-width: 100%;
 }
 
 .intro button {
@@ -269,4 +270,118 @@ footer {
     margin-top: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+
+    /* NAVBAR */
+    nav {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    nav h1 {
+        padding-left: 0;
+        margin-bottom: 10px;
+    }
+
+    #navlink {
+        padding-right: 0;
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #navlink li{
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    /* INTRO  */
+    .intro {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 10%;
+    }
+
+    .intro #bio {
+        width: 100%;
+        padding-left: 0;
+        font-size: 12px;
+    }
+
+    #resumebutton {
+        padding-left: 0;
+        margin-top: 15px;
+    }
+
+    .intro #logo {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    #logo img {
+        height: 220px;
+    }
+
+    /* PROJECTS */
+    .projects {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    .projects h1{
+        font-size: 34px;
+    }
+    .projectCard {
+        flex-direction: column;
+        padding: 20px;
+        margin: 20px;
+        text-align: center;
+        font-size: 14px;
+    }
+    .projectLogo {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .projectTitle h2{
+        font-size: 26px;
+    }
+    .projectLogo img {
+        width: 100px;
+    }
+
+    .githubrepo button {
+        margin-left: 0;
+    }
+
+    /* EXPERIENCE */
+    .experienceSection {
+        margin-top: 20%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 20%;
+    }
+    .experienceSection #title{
+        font-size: 34px;
+    }
+    .experienceSection .workdesc h2{
+        font-size: 18px;
+    }
+    .experienceSection .workdesc h3{
+        font-size: 16px;
+    }
+    .experienceSection .workdesc li{
+        font-size: 14px;
+    }
+    /* ABOUT */
+    .about {
+        padding: 20px 8%;
+        font-size: 14px;
+        border:none;
+    }
+    .footer{
+        font-size: 16px;
+    }
 }
