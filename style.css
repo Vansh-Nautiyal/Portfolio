@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+}
+
+nav {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #04043e;
+    color: aliceblue;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.contact-btn {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    color: inherit;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background: rgb(10, 10, 45);
+    border-radius: 8px;
+    list-style: none;
+    display: none;
+}
+
+/* visible state */
+.dropdown-menu.show {
+    display: block;
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.dropdown-menu a:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+nav h1 {
+    padding-left: 10%;
+}
+
+.intro h1 {
+    padding-left: 10%;
+    text-align: left;
+}
+
+/*Navbar*/
+#navlink {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    padding-top: 10px;
+    padding-right: 10%;
+    font-size: 18px;
+}
+
+#navlink li {
+    padding-right: 40px;
+}
+
+/*Intro Section*/
+.intro {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 2% 2%;
+}
+
+.intro #bio {
+    width: 50%;
+    padding-left: 50px;
+}
+
+.intro #logo {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#resumebutton {
+    padding-left: 10%;
+}
+
+#resumebutton a {
+    text-decoration: none;
+}
+
+#logo img {
+    height: 300px;
+}
+
+.intro button {
+    background-color: blueviolet;
+    padding: 10px;
+    margin-right: 20px;
+    border-radius: 12px;
+    border: 3px solid white;
+    font-size: 14px;
+}
+
+
+/*Projects Section*/
+.projects {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.projects h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 45px;
+}
+
+.projects h2 {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 35px;
+}
+
+.projectCard {
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px 40px 20px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #130b41;
+    font-size: 17px;
+}
+
+.projectLogo {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectLogo img {
+    width: 150px;
+}
+
+.githubrepo button {
+    background-color: rgb(124, 28, 214);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-family: inherit;
+    font-size: 16px;
+    margin-left: 39%;
+    border: rgb(124, 28, 214);
+}
+
+.githubrepo a {
+    text-decoration: none;
+}
+
+/*Experience Section*/
+.experienceSection {
+    margin: 8% 25% 8% 25%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.experienceSection #title {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 45px;
+}
+
+.experienceSection .row {
+    display: flex;
+    justify-content: center;
+}
+
+.experienceSection .card {
+    border-radius: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 20px;
+    background-color: #130b41;
+}
+
+.experienceSection .companylogo {
+    display: flex;
+    justify-content: center;
+}
+
+.experienceSection .companylogo img {
+    width: 100px;
+}
+
+.experienceSection .card .workdesc ul {
+    list-style-position: inside;
+    font-size: 17px;
+}
+
+.experienceSection .card .workdesc li {
+    padding-bottom: 5px;
+}
+
+.experienceSection .card .workdesc .company {
+    text-align: center;
+}
+
+.experienceSection .card .workdesc .role {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#heading {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+/*About*/
+.about h1 {
+    text-align: center;
+}
+
+.about {
+    padding: 30px 15% 30px 15%;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+    background-color: #0c072d;
+    border: 2px solid white;
+}
+
+.hidden {
+    display: none;
+}
+
+
+footer {
+    background-color: #04043e;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

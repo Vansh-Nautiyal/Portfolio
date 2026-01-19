@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vansh Nautiyal</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--Navbar-->
+    <header>
+        <nav>
+            <h1>Vansh Nautiyal</h1>
+            <ul id="navlink">
+                <li><b><a href="#intro" style="text-decoration: none;">Home</a></b></li>
+                <li><b><a href="#about" id="aboutbtn" style="text-decoration: none;">About me</a></b></li>
+                <li class="dropdown">
+                    <button id="contactBtn" class="contact-btn">
+                        <b>Contact ▾</b>
+                    </button>
+
+                    <ul id="contactMenu" class="dropdown-menu">
+                        <li><a href="https://github.com/Vansh-Nautiyal/" target="_blank">GitHub</a></li>
+                        <li><a href="https://www.linkedin.com/in/vansh-nautiyal-18a371328/" target="_blank">LinkedIn</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Introduction Section-->
+    <div class="intro" id="intro">
+
+        <!--Bio -->
+        <div id="bio">
+            <h1>I am <span style="color: blueviolet;">Vansh Nautiyal</span>, an aspiring <span
+                    style="color: blueviolet;">AIML enginner</span> with a strong interest in building practical,
+                data-driven solutions.</h1>
+            <br>
+            <div id="resumebutton">
+                <button><a href="images/VanshNautiyalResume.pdf" download><b>Download Resume</b></a></button>
+            </div>
+        </div>
+
+        <!--Photo -->
+        <div id="logo">
+            <img src="images/developer.jpg">
+        </div>
+    </div>
+
+
+    <!--Projects Section-->
+    <div class="projects">
+        <h1>Projects</h1>
+        <!--Project 1-->
+        <div class="projectCard" id="card1">
+            <div class="info">
+                <div class="projectTitle">
+                    <h2>Stock Price Prediction</h2>
+                </div>
+                <div class="projectdesc">
+                    <p>Developed a stock price prediction system using <b><span style="color :rgb(188, 122, 250)">Long
+                                Short-Term Memory (LSTM) neural networks</span></b> to
+                        forecast future stock prices from historical market data. The project involves end-to-end
+                        implementation including data collection, preprocessing, time-series windowing, feature scaling,
+                        model training, and visualization of actual vs predicted prices. <br><br>
+
+                        <b><span style="color: rgb(188, 122, 250);">Technologies Used :</span></b> Python,
+                        TensorFlow/Keras, NumPy, Pandas, Matplotlib
+                    </p>
+                    <div class="githubrepo">
+                        <button><a href="https://github.com/Vansh-Nautiyal/Stock-Price-Prediction"><b>Github
+                                    Repository</b></a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="projectLogo"><img src="images/stocks.jpg"></div>
+        </div>
+
+        <!--Project 2-->
+        <div class="projectCard" id="card2">
+            <div class="projectLogo"><img src="images/Image Splitting and Reconstruction.png"></div>
+            <div class="info">
+                <div class="projectTitle">
+                    <h2>Image Splitting and Reconstruction</h2>
+                </div>
+                <div class="projectdesc">
+                    <p style="margin-left: 20px;">Developed a Python project that splits an image into 4 quadrants,
+                        encodes each quadrant as a
+                        <b><span style="color: rgb(188, 122, 250);">QR
+                                Code</span></b>, and reconstructs the original image from the QR Codes. Demonstrated
+                        skills in image
+                        processing, QR Code generation and decoding, and Python automation. <br><br>
+                        <b><span style="color: rgb(188, 122, 250);">Technologies Used :</span></b> Python, OpenCV,
+                        Pillow, pyzbar.
+                    </p>
+                    <div class="githubrepo">
+                        <button><a href="https://github.com/Vansh-Nautiyal/Image-Split-into-QRs"><b>Github
+                                    Repository</b></a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Work Experience-->
+    <div class="experienceSection" id="workExp">
+        <h1 id="title">Work Experience</h1>
+        <div class="row">
+            <div class="card">
+                <div class="companylogo">
+                    <img src="images/ngo-logo.jpg">
+                </div>
+                <div class="workdesc">
+                    <h2 class="company">Khwaahish NGO</h2>
+                    <h3 class="role"><span style="color: rgb(188, 122, 250);">Intern | June 2025 - July 2025</span></h3>
+                    <ul>
+                        <li>Supported the organization's initiatives focused on the welfare and development of
+                            underprivileged children.</li>
+                        <li> Maintained and organized digital records, reports, and activity logs.</li>
+                        <li>Collaborated with team members and volunteers to ensure smooth implementation of community
+                            outreach programs.</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+    <!--About Section-->
+    <div id="about" class="about">
+        <h1>About Me</h1>
+        <p>
+            I am Vansh Nautiyal, an aspiring <b><span style="color: rgb(188, 122, 250);">AI/ML engineer</span></b>
+            interested in building <b><span style="color: rgb(188, 122, 250);">data driven applications</span></b> and
+            clean, user-friendly web interfaces.
+            <br>
+            I work on <b><span style="color: rgb(188, 122, 250);">practical machine learning projects</span></b> while
+            improving my front-end
+            development skills with HTML, CSS, and JavaScript. I enjoy solving <b><span
+                    style="color: rgb(188, 122, 250);">real world problems</span></b> and am actively looking for
+            opportunities to learn, contribute, and grow.
+        </p>
+    </div>
+    <!--Footer-->
+    <footer>
+        <p>© 2026 Vansh Nautiyal · Built with HTML, CSS & JavaScript
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
